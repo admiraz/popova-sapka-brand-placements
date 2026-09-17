@@ -75,15 +75,17 @@
     "height": 1230
   },
   "/assets/07-chairlift-seats.jpg": {
-    "hash": "abac85114182564ae4a4b74d29486842494a66b0",
+    "hash": "cce8ea654ce3843d3d127a8b140d2d1ff020d4d1",
     "widths": [
       400,
       640,
-      828
+      828,
+      1080,
+      1280
     ],
-    "blurDataURL": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAAAwBQCdASoYABoAPulgo02pJaMiMAwBIB0JZgCdAB6CowrL7Vf/2/uRnyJ6ayUAJAPKYAD+r5b0BHdOMwbnjX0+cWMPBQ7V2UuUXYXPo25gM2E2SthQWBlW2L8R2ugA0PsZgyclx3NooC4CiRzpMIQxtGIvIfStyhMLYbClYa4UY3fHdMPYU0Pr1EDAYSgNjqjhjI4UVxVSpg4edi4ZEx4eTTyGYv+mrLWbVqOC4rb80UP04wRmsiK1OX110A52w1aQ5TTyad7FZkmCjLPk9luV8xxuU5/nxAoXIcRCAC1har9Cwx1ndyUMQj6IjYkAAAA=",
-    "width": 1004,
-    "height": 1086
+    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdACICcz9KLq2fgGyzGLcAAP7VBdreUXHWUhVBwT/C1AscipPxM8LJFqqun5dTWqvjDEzTywfMowryVYaqyhffJIh+fB/XjAknJbfGoScAdXbOIryyRbkEHLekR26WYwLvGUvKBH7RDaFkcdHcCLtYbe1nITJ86TI/2Q/DAS+6AAA=",
+    "width": 1539,
+    "height": 1022
   },
   "/assets/08-ticket-office-branding.jpg": {
     "hash": "c33e472184a9c972eec69b533eff36adf4eb6d22",

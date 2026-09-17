@@ -29,7 +29,7 @@ const IMG = {
   pylonBase: { src: "/assets/04-pylon-base-closeup.jpg", width: 1086, height: 1002 },
   pylonTrees: { src: "/assets/05-pylon-banner-trees.jpg", width: 1086, height: 1002 },
   liftStation: { src: "/assets/06-lift-station-canopy.jpg", width: 1138, height: 1230 },
-  chairliftSeats: { src: "/assets/07-chairlift-seats.jpg", width: 1004, height: 1086 },
+  chairliftSeats: { src: "/assets/07-chairlift-seats.jpg", width: 1539, height: 1022 },
 };
 
 export const PLACEMENTS: Record<Locale, PlacementBlock[]> = {
