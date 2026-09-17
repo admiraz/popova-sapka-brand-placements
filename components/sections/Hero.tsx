@@ -30,23 +30,36 @@ export function Hero({ locale }: { locale: Locale }) {
         <span
           aria-hidden="true"
           data-hero-stagger=""
-          className="self-end font-script text-5xl text-amber sm:text-6xl"
+          className="self-end font-script text-6xl text-amber sm:text-7xl"
         >
           {t.scriptWord}
         </span>
 
         <div className="flex items-center gap-3" data-hero-stagger="">
           <span aria-hidden="true" className="h-1 w-7 shrink-0 bg-cyan" />
-          <span className="font-display text-eyebrow font-bold uppercase tracking-[0.18em] text-cyan">
+          <span className="font-display text-sm font-bold uppercase tracking-[0.18em] text-cyan">
             {t.eyebrow}
           </span>
         </div>
 
-        <h1 id="hero-heading" data-hero-stagger="" className="text-h1 font-display font-black leading-[1.05]">
+        {/* Sized up from the shared --fs-h1/--fs-body-lg tokens (this full-
+            bleed hero now spans the whole viewport, not half of it, so the
+            text needs more scale to hold its own against the photo). Scoped
+            here with arbitrary values rather than bumping the shared tokens,
+            since text-h1 and text-body-lg are still used at their normal
+            scale elsewhere. */}
+        <h1
+          id="hero-heading"
+          data-hero-stagger=""
+          className="text-[clamp(2.5rem,1.7rem+3.4vw,4.5rem)] font-display font-black leading-[1.05]"
+        >
           <span className="text-white">{t.headingLine1}</span> <span className="text-cyan">{t.headingLine2}</span>
         </h1>
 
-        <p data-hero-stagger="" className="text-body-lg max-w-[46ch] font-body font-light text-white/85">
+        <p
+          data-hero-stagger=""
+          className="max-w-[48ch] text-[clamp(1.125rem,1.02rem+0.5vw,1.5rem)] font-body font-light text-white/85"
+        >
           {t.sub}
         </p>
 
