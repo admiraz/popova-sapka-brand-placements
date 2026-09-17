@@ -51,7 +51,7 @@ export function Hero({ locale }: { locale: Locale }) {
         <h1
           id="hero-heading"
           data-hero-stagger=""
-          className="text-[clamp(2.75rem,1.75rem+4.2vw,5.25rem)] font-display font-black leading-[1.05]"
+          className="text-[clamp(2.75rem,1.75rem+4.2vw,6.5rem)] font-display font-black leading-[1.05]"
         >
           <span className="block text-white">{t.headingLine1}</span>
           <span className="block text-cyan">{t.headingLine2}</span>
