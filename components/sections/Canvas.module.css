@@ -1,0 +1,24 @@
+/* Slight zoom on hover with no layout shift — the wrapper clips a scaled
+   image rather than resizing the box itself. */
+.frame {
+  overflow: hidden;
+  border-radius: var(--radius-card-lg);
+}
+
+.frame img {
+  transition: transform 0.5s ease-out;
+}
+
+.frame:hover img {
+  transform: scale(1.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frame img {
+    transition: none;
+  }
+
+  .frame:hover img {
+    transform: none;
+  }
+}

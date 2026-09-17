@@ -1,0 +1,7 @@
+.script {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  width: clamp(10rem, 8rem + 10vw, 18rem);
+  height: auto;
+}

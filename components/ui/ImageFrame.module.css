@@ -1,0 +1,10 @@
+.wrap {
+  position: relative;
+}
+
+.imageBox {
+  position: relative;
+  border-radius: var(--radius-card-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}

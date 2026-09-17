@@ -1,0 +1,293 @@
+/* ==========================================================================
+   Design tokens — the single source of truth for every color, radius,
+   shadow, type scale and spacing value used across the site. Nothing below
+   this block (or in any component) should hardcode a literal value that
+   belongs here; the @theme inline block re-exposes these as Tailwind
+   utilities so both plain CSS and Tailwind classes read the same numbers.
+   ========================================================================== */
+:root {
+  /* Color */
+  --navy: #0e2748;
+  --navy-deep: #0a1f3c;
+  --navy-panel: #133358;
+  --cyan: #29b7e8; /* bright brand accent — decorative graphics + text on dark (navy) surfaces only */
+  --cyan-dark: #0d79a3; /* AA-accessible cyan for button fills (white text, 4.9:1) */
+  --cyan-darker: #0a6c94; /* AA-accessible cyan for text on light surfaces (5.3–5.9:1) + button hover */
+  --cyan-light: #7fd4f2; /* accessible light-cyan for small text on navy */
+  --amber: #ffc107; /* bright brand accent — decorative bars/underlines only */
+  --amber-ink: #8c6600; /* AA-accessible amber for amber-colored text (5.2:1 on white) */
+  --orange: #f26522;
+  --ice: #f2f8fc;
+  --card: #edf5fb;
+  --text: #35475c;
+  --muted: #57687c; /* darkened slightly from the brief's #64768B so 12px small print clears 4.5:1 on --ice/--card */
+  --line: #e2ebf3;
+  --white: #ffffff;
+
+  /* Radius */
+  --radius-button: 4px;
+  --radius-card-sm: 10px;
+  --radius-card-lg: 16px;
+
+  /* Shadow — always soft, low-opacity navy, never black */
+  --shadow-card: 0 18px 40px -24px rgb(14 39 72 / 0.35);
+  --shadow-card-hover: 0 24px 48px -20px rgb(14 39 72 / 0.4);
+
+  /* Fonts (bridged from next/font variables set on <html>) */
+  --font-display: var(--font-nunito), sans-serif;
+  --font-body: var(--font-rubik), sans-serif;
+  --font-script: var(--font-yellowtail), cursive;
+
+  /* Fluid type scale */
+  --fs-h1: clamp(2.125rem, 1.55rem + 2.7vw, 3.875rem); /* 34px -> 62px */
+  --fs-h2: clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem); /* 28px -> 44px */
+  --fs-h3: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+  --fs-eyebrow: 0.8125rem; /* 13px */
+  --fs-body: 1.0625rem; /* 17px */
+  --fs-body-lg: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --fs-button: 0.8125rem; /* 13px */
+  --fs-small: 0.75rem; /* 12px */
+  --fs-stat: clamp(1.75rem, 1.4rem + 1.6vw, 2.5rem);
+  --fs-ghost-numeral: clamp(5rem, 3.5rem + 6vw, 9rem);
+
+  /* Fluid spacing */
+  --space-section: clamp(3.5rem, 2.4rem + 5vw, 7.5rem);
+  --space-section-sm: clamp(2.5rem, 1.9rem + 2.8vw, 4.5rem);
+  --gutter: clamp(1.25rem, 0.9rem + 1.6vw, 2.5rem);
+  --container-max: 78rem;
+
+  color-scheme: light;
+}
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-panel: var(--navy-panel);
+  --color-cyan: var(--cyan);
+  --color-cyan-dark: var(--cyan-dark);
+  --color-cyan-darker: var(--cyan-darker);
+  --color-cyan-light: var(--cyan-light);
+  --color-amber: var(--amber);
+  --color-amber-ink: var(--amber-ink);
+  --color-orange: var(--orange);
+  --color-ice: var(--ice);
+  --color-card: var(--card);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+
+  --radius-button: var(--radius-button);
+  --radius-card-sm: var(--radius-card-sm);
+  --radius-card-lg: var(--radius-card-lg);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-card-hover: var(--shadow-card-hover);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-script: var(--font-script);
+
+  --text-h1: var(--fs-h1);
+  --text-h2: var(--fs-h2);
+  --text-h3: var(--fs-h3);
+  --text-eyebrow: var(--fs-eyebrow);
+  --text-body: var(--fs-body);
+  --text-body-lg: var(--fs-body-lg);
+  --text-button: var(--fs-button);
+  --text-small: var(--fs-small);
+  --text-stat: var(--fs-stat);
+  --text-ghost: var(--fs-ghost-numeral);
+
+  --spacing-section: var(--space-section);
+  --spacing-section-sm: var(--space-section-sm);
+  --spacing-gutter: var(--gutter);
+
+  --container-content: var(--container-max);
+}
+
+/* ==========================================================================
+   Base layer — explicitly placed in Tailwind's `base` cascade layer so that
+   any Tailwind utility class (text-white, text-navy, etc.) always wins over
+   these element-level defaults. Unlayered CSS beats *every* layered rule
+   regardless of specificity, so leaving these unlayered would silently
+   defeat color/typography utilities anywhere they're applied directly to a
+   bare element these rules target (e.g. `a { color: inherit }` overriding
+   `text-white` on an anchor-rendered Button).
+   ========================================================================== */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: auto; /* Lenis (or native fallback) owns smooth scrolling */
+    /* Safety net for decorative elements that intentionally bleed past their
+       own box (offset image frames, ghost watermarks, diagonal streaks) —
+       clip rather than hidden, so it never turns html into a scroll container. */
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: var(--fs-body);
+    line-height: 1.75;
+    color: var(--text);
+    background: var(--white);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--navy);
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  p {
+    margin: 0;
+    max-width: 68ch;
+    text-wrap: pretty;
+  }
+
+  img,
+  picture,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  button {
+    font-family: inherit;
+    color: inherit;
+  }
+
+  a,
+  button,
+  [role="button"],
+  input[type="submit"] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  /* Every interactive element gets a visible, consistent focus ring */
+  :focus-visible {
+    outline: 2px solid var(--cyan);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--cyan);
+    color: var(--white);
+  }
+
+  /* Anchors land beneath the sticky 76px header */
+  [id] {
+    scroll-margin-top: 96px;
+  }
+
+  /* Ghost decorative marks never intercept input or screen-reader focus */
+  [data-ghost] {
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .sr-only-focusable:focus {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    left: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.75rem 1.25rem;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    background: var(--navy);
+    color: var(--white);
+    border-radius: var(--radius-button);
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+
+  .container {
+    width: 100%;
+    max-width: var(--container-max);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  header,
+  [data-mobile-nav],
+  [data-decorative],
+  [data-ghost] {
+    display: none !important;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  section {
+    break-inside: avoid;
+    padding: 1.5rem 0 !important;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #444;
+  }
+
+  table {
+    break-inside: auto;
+  }
+}

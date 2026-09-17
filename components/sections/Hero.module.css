@@ -1,0 +1,30 @@
+/* Full-bleed hero: the background photo has no intrinsic height of its own
+   (it's absolutely positioned), so the section needs an explicit floor tall
+   enough to read as a proper hero at every width. */
+.hero {
+  min-height: 480px;
+}
+
+@media (min-width: 640px) {
+  .hero {
+    min-height: 560px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 680px;
+  }
+}
+
+/* Enough bottom padding that the stat strip's negative top margin (applied
+   from sm and up) never collides with the hero content above it. */
+.hero {
+  padding-bottom: clamp(1.5rem, 1rem + 2vw, 3rem);
+}
+
+@media (min-width: 640px) {
+  .hero {
+    padding-bottom: clamp(4rem, 2rem + 8vw, 9rem);
+  }
+}

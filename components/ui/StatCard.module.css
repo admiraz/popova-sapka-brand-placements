@@ -1,0 +1,58 @@
+/* Stat card: the resort site's signature "ghost numeral bleeding off the
+   corner" treatment. The numeral sits behind the content and is clipped by
+   the card's own rounded corner via overflow:hidden on the root. */
+.card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: var(--radius-card-lg);
+  background: var(--white);
+  box-shadow: var(--shadow-card);
+  padding: 1.75rem 1.5rem;
+  transition:
+    box-shadow 0.25s ease-out,
+    transform 0.25s ease-out;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.icon {
+  color: var(--cyan);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  color: var(--navy);
+  font-size: var(--fs-stat);
+  line-height: 1.1;
+  position: relative;
+  z-index: 1;
+}
+
+.detail {
+  margin-top: 0.375rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+  max-width: 22ch;
+}
+
+.ghost {
+  position: absolute;
+  right: -0.35em;
+  bottom: -0.28em;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(4.5rem, 3.6rem + 3vw, 6.5rem);
+  line-height: 1;
+  color: var(--card);
+  z-index: 0;
+  user-select: none;
+}

@@ -1,0 +1,17 @@
+.numeral {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1;
+  font-size: var(--fs-ghost-numeral);
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(41, 183, 232, 0.25);
+}
+
+@supports not (-webkit-text-stroke: 1px black) {
+  .numeral {
+    color: rgba(41, 183, 232, 0.12);
+  }
+}

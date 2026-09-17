@@ -1,0 +1,231 @@
+{
+  "/assets/01-hero-ridge.jpg": {
+    "hash": "87ed86199205ede8036213c602b2d4501ceb0229",
+    "widths": [
+      400,
+      640,
+      828,
+      1080,
+      1280,
+      1600,
+      1920
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOgBD4RCsa4FE5EYxgAAP7ukhGsBoTx9bFsBybkQQb8D3lJdPD8dPTQ9OhuqPJs/YEDHk8sZkdnEDU88PYvm7dwW6JtVhiWGIk1lECssEAA",
+    "width": 1920,
+    "height": 1080
+  },
+  "/assets/02-piste-entry-billboard.jpg": {
+    "hash": "84babf4d343c0a901274ddb20dbf3fefa2eb5889",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBQCdASoYABoAPu1qrFEppaQiqAqpMB2JQBYj8qX/wDyKNDXk8Pr/q4WCqanNJr2oK4eYAADKcDvJpLOQFqDDgoMjplihzcH8leWET7SaFAFkaZyt6RJvqi/o+/iD+TfJ+Vha1ACEhp5wDWerwPaFptsVnmCB6KVEcknX7nZluIvaIWvvWbmv7dgc3OCJZ8c2vIb+681W3tRWHyfObEJ3kJ/EjEhMhqFTM0MsdlfVsV3HMB4WRul7c0eAoy/j8+GK10KisZALAXiwYAA=",
+    "width": 1004,
+    "height": 1086
+  },
+  "/assets/03-pylon-banners-wide.jpg": {
+    "hash": "2e4b9e22e729de71879e95898df810dce1fa45b5",
+    "widths": [
+      400,
+      640,
+      828,
+      1080,
+      1280
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JZgCdMoAB/n8HX5IowZDXvjuAAP3r1ldvGIQLStSaZdHNz4RtYpB3BiQtnP5OyWyR02vak8xpndDDZEa3l10TOrXEBYaz/iS0W8c7nqwBtKiMoED2KIyYVfBnhq4AwwjBdeQE0jz9zBMyVmM/oeHJtSHG/dXzdC/Jujn0DTRUVe+D3e2+Ri3QUPGdjCyQjq8vyH1QAAA=",
+    "width": 1543,
+    "height": 941
+  },
+  "/assets/04-pylon-base-closeup.jpg": {
+    "hash": "fd4d4182a85393ddeb9914888d3c381738ce356d",
+    "widths": [
+      400,
+      640,
+      828,
+      1080
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACwBQCdASoYABYAPu1sq1EppaOiqAqpMB2JQBOmZi3/wD2Keu+JGXMm7QSUNN1any5XN9A4n1AA/tUTTb4c4Wn4tcdK5/TkZAjHXMaUDizyI6kJHUORE7g+Usr/XmCisWFSYtsL2HuMrsfUcNxi2J5xWm1HJK4mMjC1nT1+UGVfdsQ997asC2FO0pP0kTxg7xO2g+EWV1IbmuHVFfpQCHF7o2rxt4yTyLuWo5MC8HdqQy+y+Febp8x048xERdhJYeopJLTAzmXbDmtAbJXAAAAA",
+    "width": 1086,
+    "height": 1002
+  },
+  "/assets/05-pylon-banner-trees.jpg": {
+    "hash": "b928d364ef8ee9d101029b0e900db7579ba1f935",
+    "widths": [
+      400,
+      640,
+      828,
+      1080
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQBACdASoYABYAPu1qrFEppaQiqAqpMB2JZwC/7A3PWWlpI4l7PU+SBXpHSu27AADctYmlsjNSjcfcPkbfQKDBrCezye6ngqaDL+dxU8Yq5s/3YMCwdiBePAG+t9SB0Lau5Br/m6nB6hcWBFWtXbtO8aQmqwXr8oMXBIFT1zViWKb5VL9g+S9t6jUnDKUaw25kKYSlAlSuXgSD5AAAAA==",
+    "width": 1086,
+    "height": 1002
+  },
+  "/assets/06-lift-station-canopy.jpg": {
+    "hash": "1f4fd5e76b40c5b89baafb5f3fa85d32015a892a",
+    "widths": [
+      400,
+      640,
+      828,
+      1080
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAAAwBQCdASoYABoAPu1wsFIppiSiqAgBMB2JZgAAL8Vm/npNXCv54Lb56GLH169+3btc2AD0dH8vF5HFmITqeWYLepm3fIjeYbs09yQYwwYL8bt0Y3Rh8siUsgQW3ptVk6JPP/UrwYeLUu/6q0jtawnR8Jzvt3p1mvyk9rpt8SBSo57kHU/45oq+KVbpXrZ5THnjZqJTpnRjMu4qMgPizrk8IcNVicZXJma/XaMWF9xK5LwHNd7HRHLMO/LKHWk6/PQUtjRYb9CMdIv3a+sAAA==",
+    "width": 1138,
+    "height": 1230
+  },
+  "/assets/07-chairlift-seats.jpg": {
+    "hash": "abac85114182564ae4a4b74d29486842494a66b0",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAAAwBQCdASoYABoAPulgo02pJaMiMAwBIB0JZgCdAB6CowrL7Vf/2/uRnyJ6ayUAJAPKYAD+r5b0BHdOMwbnjX0+cWMPBQ7V2UuUXYXPo25gM2E2SthQWBlW2L8R2ugA0PsZgyclx3NooC4CiRzpMIQxtGIvIfStyhMLYbClYa4UY3fHdMPYU0Pr1EDAYSgNjqjhjI4UVxVSpg4edi4ZEx4eTTyGYv+mrLWbVqOC4rb80UP04wRmsiK1OX110A52w1aQ5TTyad7FZkmCjLPk9luV8xxuU5/nxAoXIcRCAC1har9Cwx1ndyUMQj6IjYkAAAA=",
+    "width": 1004,
+    "height": 1086
+  },
+  "/assets/08-ticket-office-branding.jpg": {
+    "hash": "c33e472184a9c972eec69b533eff36adf4eb6d22",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRiABAABXRUJQVlA4IBQBAACwBQCdASoYABsAPu1wsFIppiSiqAgBMB2JQBOja/j6BxSOBM1uRvFtdfaiEmxnM3/JFhinhbQA/urs+PfRsime9bqJlrfVhLGqTgNzZPwe4LJPQGR5Fb+0gla9CbBBq537i1qZsA+82lGmnFXKcMFljMlniZugrYRlIr2gOPHVfo44GKfYZeSvIxoHvwmNOe0tlCNWahA7GvH/rn/V/lwbQ0IPiylK49qoieFjafKxM5zD33IskTJ18cr4XXJV8e3MGc3fgNz03bSjLo1PCeTRbT7QdInJ5XTwXWzvwzAMWNRGkpEXpcR2/yQb+XCvE0uZKq5OmUI2lZUd/kp0XtMMFh1c/9nl4ysxJgGj8nN1z0GMcAA=",
+    "width": 898,
+    "height": 1024
+  },
+  "/assets/11-takeover-chairlift.jpg": {
+    "hash": "1dbebcf5af886b8ff6dc5996a5e39e1fae64f997",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAABwBgCdASoYABsAPulgo02pJaMiMAwBIB0JaACdFQA5/88AMaVZRuVpmrktm+9pE2DDv2QTd2MaCWJmFgAA/q+X8/P66K2NqK7FKhp1wdTb8f28jSCgGy4C2Z5UpDRfEtWJwpvUwnLvIuyRrGzbs2nxoPxEfLzf5Ivi8MHXD008Nxn7GlNGzGjGoY4ervmS4Z/wNoaZYTIL3Nl1oiAHe6Bg25gep54COUNHuwl+kDk41NFFJpYxzBM0s+NLip2DH9AGSrqFG/x/Jxe+LvSVKDIgRg/VehRTQ7ex1c21l0XZRSuj0wB69PKAX4hZPKTdQpxhotpxOAAAAA==",
+    "width": 893,
+    "height": 1022
+  },
+  "/assets/12-takeover-station.jpg": {
+    "hash": "fb0919786ea3e088d5087abb86a18c8dfbdcfa2a",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABQBQCdASoYABsAPu1wsFIppiSiqAgBMB2JaAAAJaIIo/bD+JpgrcNXXukOm/fEEB4sEOAA+yM0i6Zgu5f8b7WTzHmw9sDOh/2ud14F8NRSCNSj0RUAQz702g3SG6LsW07/6leDDxbJXf+qtI7nRQ0Cyfiialnbfc0l3cyRzfjtdPPrP6JVhjpiMLvPYhTwHH/QI4HOUr+K1BzOy11rVao1WQPc0uLJxtDypgukzyMCjK96vMma7nuGKY+YQ91cz050ksgZ/VRUU+AAAAA=",
+    "width": 949,
+    "height": 1086
+  },
+  "/assets/13-takeover-base-fence.jpg": {
+    "hash": "22b3d8486105c0a7fdc3ee14f236cd8babee7fc6",
+    "widths": [
+      400,
+      640
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAAAQBQCdASoYABwAPu1ur1IppiQiqAgBMB2JYwC2yBI4Xkll7Lm/Z2plZXml/E4TjBjEAP7WGS09Pn9y+Y1Xxel7pD7FFeEQQCxYIDO2qX6fXGjwoDYKaKdhgz982CUeuiTCOcqHsYV8CHahumX+vZgXsrKvI4Nf6sLuNeTY79fhsqWV2DQymNs4ogwzi6TLMYfcJzfD6zKSjNVfOZj5uWQys3cJyJuehBI0gSP3Vz+zq12Fg37s9VG/dJbqZIPy+rjj0YtAgaAAAA==",
+    "width": 823,
+    "height": 941
+  },
+  "/assets/14-takeover-pylon-slope.jpg": {
+    "hash": "4313063fa5962694424a901ee7cde6b15339e8db",
+    "widths": [
+      400,
+      640
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoYABwAPu1qqFAppiOiqA1RMB2JZwC7AA9KuDffzSpFXLjsqUDlvUcUdGtAAP6N/UveBXArV34ssyHALjd9qfHijLLuuvRhtRa5tFLOTe2KxcxmxSAbBhFEUx5UOY77OJ00+CGDaGoOZ6th75rTRcLgjRD9ol3CLJYpF3zv5BLriA/WcKJ5QI1Us+nU1H7uP4C1av6NU4gCgHDwmJ4Zf3IiaGjbA7ecAAA=",
+    "width": 823,
+    "height": 941
+  },
+  "/assets/15-gallery-slope.jpg": {
+    "hash": "f272e825137a06cd9101c936d6b5b3220fa3639a",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYAA0APu1iqk2ppaQiMAgBMB2JYgCdMoADC2lZ9/ef3arFoAAA+pQsvpwdmtzWSku2A5sioHkZ22CL+V03QFkhcWYapL9xB9/38RLqGOtRtkkofJXDwHsWCG5IS7WVQgrF22bR0d6hOVCnEVQ2ABfNMAAAAA==",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/16-gallery-snowboarder.jpg": {
+    "hash": "eb591495243b2eaee193341c78a25d85f29c1040",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoYAA0APu1iqU2ppaQiMAgBMB2JZACdMoACQsHOvIt+OeVf8yAA2ti/N4dMbZjP5eZXAoiE/Zx3UGPZY5j5uD6fDmWl8At4W4encH94W70W4Z4pqePBhUiUk/23v67LHXvNwhWAgbQod7HqKF7JlE1wDcMPUNdqUtoAAA==",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/17-gallery-base-view.jpg": {
+    "hash": "d2cc9af92f921319af4dcd9aa875e553fcc9b215",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JQBOiP/wHeeL7Ca7r3fc7AAD+fnoV8IBisNGhGHnlyu2OyAJQh8FoNzhKWe6AeiM5VA0oyklEYOvwz3TLruS44VIucK/e9n3xEgD2QijFd26ujFatvxhDYtbwPEnRAAEwfghZnBySEbOXb9AAAA==",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/18-gallery-chairlift.jpg": {
+    "hash": "cba814e949a2b7b7c6a93e6e5d30bebe04b2880f",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JYgCw7YwwmxaqlizErq0gAP7hX5OwFlVZRGdidBrQcCx1hY03RR6yvHGCTsnO8S4+w4ssuXPG9/hJAdJi7yI8D5iHLAPK2IssDy0auoFqw9JcDuThVwUjTy/Rggp1/7VcurZm09oh2IkVcHfi8T9v+nn4/G1gAAA=",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/19-gallery-piste.jpg": {
+    "hash": "06453d0ff54a789c4f11070dbd72c6e2320f9cae",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwBACdASoYAA0APu1iqU2ppaQiMAgBMB2JZgCdB3gAo1XoEfRGPqY1AfgA++ru/r+kJkN8e0yNq2uDHjjtQQOgYMCPVG5sP3SgUL7cGx80RyGIe6I1EY9RArWfcCQBgjmpQk4zwP7Q50BaSqIkOE8D4LvDuN7gbisJFHf/GjMI1sAA",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/20-gallery-forest.jpg": {
+    "hash": "d41b4b3abeecacefa8f02cdbad75b2a83cc25fb9",
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBACdASoYAA0APu1iqk2ppaQiMAgBMB2JYgCdEf/gNaHiEUCkdGOMAAD+ZtUPqgNMhJaJrX1Qcm+yTRQRTTOrkLLSHRRLt9wihg1heAdrPHdNkNVHADQ9s4tlSptXj15Tl33aVqW3CM76jig5M0WbL3TgWxE8cspsviW+uKm3/8q5bVeUe6c6TLLs5FLAAAA=",
+    "width": 880,
+    "height": 478
+  },
+  "/assets/logo-navy.png": {
+    "hash": "569a3c6e27e030999b3a26d54f689cb5b45db800",
+    "widths": [
+      400,
+      640,
+      828,
+      1080
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4WAoAAAAQAAAAFwAABAAAQUxQSHkAAAAABgY4TGMfAD4nPzpCJAABAAAAAAAAAAAAQiNnbCtuD1hqbmVrbVJHGDI9RUBTUDFGbmpeV2xmMjViZ1FvbWJlK1BtaE85WlpNdTqtpkFkEWJNanNzX0ZjNkl5dVRMSEsGIT4oSF86AAgODg8FCgkLBQwNChEVDgMCAFZQOCBEAAAAMAMAnQEqGAAFAD7taK1OqaYkojAIATAdiWgAnQAtB4TEsAD+73dmrW5V6bA6D4sqt4sHFEdkOAyIKc0Nb8LNgESQAAA=",
+    "width": 1113,
+    "height": 251
+  },
+  "/assets/logo-white.png": {
+    "hash": "750914c474a742a1cbb03723abc0359daaf25da9",
+    "widths": [
+      400,
+      640,
+      828,
+      1080
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4WAoAAAAQAAAAFwAABAAAQUxQSHkAAAAABgY4TGMfAD4nPzpCJAABAAAAAAAAAAAAQiNnbCtuD1hqbmVrbVJHGDI9RUBTUDFGbmpeV2xmMjViZ1FvbWJlK1BtaE85WlpNdTqtpkFkEWJNanNzX0ZjNkl5dVRMSEsGIT4oSF86AAgODg8FCgkLBQwNChEVDgMCAFZQOCAmAAAAsAIAnQEqGAAFAD7tYqlNqaWjojAIATAdiWkAAHsgAP7w3y4AAAA=",
+    "width": 1113,
+    "height": 251
+  }
+}
